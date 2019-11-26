@@ -1,0 +1,209 @@
+f/** CONFIGURAÇÕES PADRÃO **/
+* {
+  margin: 0px !important;
+  padding: 0px !important;
+  font-size: 100% !important;
+  border: none !important;
+  outline: none !important;
+  box-sizing: border-box !important;
+}
+
+.personalizado{
+    padding-top:0px !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+ul {
+  list-style: none !important;
+}
+
+img {
+  max-width: 100% !important;
+}
+
+.radius{
+  border-radius: 5% !important;
+}
+
+.Estilo{
+  width: 100% !important;
+  float: left !important;
+  padding: 3% 4% !important;
+  text-align: center !important;
+  margin-top: 10px !important;
+}
+
+.text-center,.img-responsive {
+    margin: 0 auto !important;
+}
+
+.text-justify{
+  text-align: justify !important;
+}
+
+/** BACKGROUNDS **/
+.bgGradient{
+	background: linear-gradient(to right, #16ad8b, #47d0b1) !important;
+}
+
+.bgBlack{
+	background-color: #000 !important;
+}
+
+.bgWhite{
+  background-color: #FFF !important;
+}
+
+.bgGreen{
+	background-color: #16ad8b !important;
+}
+
+/** CABEÇALHO **/
+.cabecalho{
+  width: 100% !important;
+  float: left !important;
+  padding: 1.5% 2% !important;
+  text-align: left !important;
+  margin-top: 0px !important;
+  font-size: 1em !important;
+  color: white !important;
+}
+
+/** LOGO **/
+.logo{
+  width: 280px !important;
+  height: 100px !important;
+  float: left !important;
+  background: url(../img/Logo0.png) center center/280px no-repeat !important;
+}
+
+/** HEAD **/
+.head{
+    position: fixed !important;
+}
+
+/** MENU **/
+.menu{
+  font-size: 1.5em !important;
+  float: right !important;
+  justify-content: flex-end !important;
+  padding: 1% 0% !important;
+}
+
+.navbar-text{
+  color: #8d8d8d !important; 
+}
+
+/** INDEX **/
+.conteudo{
+  width: 100% !important;
+  text-align: center !important;
+  margin-bottom: 3% !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+
+.conteudo,img{
+  border-radius: 10px 10px 0px 0px !important;
+}
+
+.conteudo,.textos{
+  padding: 7% !important;
+}
+
+.conteudo,.textos,h4{
+  font-size: 2em !important;
+  color: #000 !important;
+  font-weight: bold !important;
+  margin-top: 1% !important;
+}
+
+.box {
+  box-sizing: border-box !important;
+  padding: 10px !important;
+}
+
+.boxHTML{
+  box-sizing: border-box !important;
+  padding: 10px !important;
+  flex-direction: column !important;
+  width: calc(100% / 2) !important;
+}
+
+/** INDEX-ATENDIMENTO **/
+.Opacidade{
+  opacity: 0.7 !important;
+}
+
+.conteudoAtendimento{
+  margin-bottom: 3% !important;
+  display: block !important;
+  flex-wrap: wrap !important;
+  margin:5px !important;
+  flex-direction: row !important;
+  width: calc(100% / 1) !important;
+}
+
+/** INDEX-RODAPE **/
+.rodape{
+	width: 100% !important;
+	float: left !important;
+	padding: 1% 1% !important;
+	text-align: center !important;
+	margin-top: 10px !important;
+}
+
+.direitos{
+	color: #FFF !important;
+	opacity: 0.7 !important;
+}
+
+/** MEDIA-SCREEN **/
+@media screen and (max-width: 850px){
+  .btMenu{
+    display: none !important;
+  }
+
+  .BoxAtendimento {
+    flex-direction: column !important;
+    width: calc(100% / 1) !important;
+    font-size: 10px !important;
+  }
+
+  .textCarousel{
+    font-size: 1em !important;
+    display: none !important;
+  }
+
+}
+
+@media screen and (min-width: 850px){
+    .box {
+    flex-direction: column !important;
+    width: calc(100% / 2) !important;
+  }
+
+    .BoxAtendimento {
+    flex-direction: column !important;
+    width: calc(100% / 4) !important;
+  }
+
+   .boxSobre {
+    flex-direction: column !important;
+    width: calc(100% / 1) !important;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .textCarousel{
+    font-size: 1em !important;
+    display: none !important;
+  }
+
+}
+
+
+  
