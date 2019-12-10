@@ -18,13 +18,13 @@
           <a class="nav-item active navbar-text" href="./index.php">Início</a>
           </li>
           <li>
-          <a class="nav-item navbar-text" href="pagina2.php">Página 2</a>
+          <a class="nav-item navbar-text" href="pagina2.php">Galeria</a>
           </li>
           <li>
-          <a class="nav-item navbar-text" href="pagina3.php">Página 3</a>
+          <a class="nav-item navbar-text" href="pagina3.php">Sobre</a>
           </li>
           <li>
-          <a class="nav-item navbar-text" href="pagina4.php">Página 4</a>      
+          <a class="nav-item navbar-text" href="pagina4.php">Fale Conosco</a>      
           </li>
           </ul>
 

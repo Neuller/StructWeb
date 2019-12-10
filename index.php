@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br" class="Personalizado">
 
@@ -41,18 +40,18 @@
 		<!-- SLIDES -->
 		<div class="carousel-inner">
 			<div class="item active">
-				<a href="Views/Sobre.php"><img src="img/carousel/imagem1.jpg" alt="Banner Nserv" title="NSERV INFO"></a>
+				<a href="Views/Sobre.php"><img src="img/carousel/imagem1.jpg" alt="Banner Categ" title="NSERV INFO"></a>
 				<div class="carousel-caption">
 					<h3 class="textCarousel"></h3>
 				</div>
 			</div>
 
 			<div class="item">
-				<img src="img/carousel/imagem2.jpg" alt="Banner Nserv" title="PROMOÇÕES OUTLET">
+				<img src="img/carousel/imagem2.jpg" alt="Banner Categ" title="PROMOÇÕES OUTLET">
 			</div>
 
 			<div class="item">
-				<a href="Views/Websites.php"><img src="img/carousel/imagem3.jpg" alt="Banner Nserv" title="WEBSITES"></a>
+				<a href="Views/Websites.php"><img src="img/carousel/imagem3.jpg" alt="Banner Categ" title="WEBSITES"></a>
 				<div class="carousel-caption">
 					<h3 class="textCarousel"></h3>
 				</div>
